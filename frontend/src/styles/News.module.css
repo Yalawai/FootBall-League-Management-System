@@ -1,0 +1,41 @@
+.news_header {
+    background: linear-gradient(135deg, #007bff, #66f);
+    padding: 20px;
+    
+    text-align: center;
+    color: #fff;
+  }
+  
+  .title_container{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+  }
+
+  .news_header h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: #b3d4fc;
+    
+  }
+  
+  .news_header h2 {
+    font-size: 36px;
+    margin: 10px 0;
+    color: #fff;
+    font-weight: bolder;
+  }
+  .news_image, .news_text{
+    width: 50%;
+    border-radius:10px ;
+    margin:auto;
+
+  }
+  .newsItem img{
+    margin-top: 10px;
+    width: 100%;
+    border-radius:10px ;
+    
+
+  }

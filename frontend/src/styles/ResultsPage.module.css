@@ -1,0 +1,174 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .match_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e5e5;
+  }
+  
+  .match {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .team {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    flex: 1;
+  }
+  
+  .team_right {
+    justify-content: flex-start;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .team_name {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .details {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    background-color: #37003c;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    width: 20%;
+    margin: 0 10px;
+  }
+  
+  .playfield, .date {
+    font-size: 0.9em;
+    color: #999;
+    text-align: right;
+    flex: 1;
+    padding-left: 10px;
+  }
+  
+  .events {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .events_left, .events_right {
+    width: 48%;
+  }
+  
+  .events_left {
+    text-align: left;
+  }
+  
+  .events_right {
+    text-align: right;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #055597;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #033a75;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+    color: #555;
+  }
+
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+ 
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+
+  .filterItems{
+    display: flex;
+    gap : 1rem
+  }
+  
+  .filterItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filterItem label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .filterItem select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .resetFilters {
+    display: flex;
+    align-items: flex-end;
+    
+  }
+  
+  .resetFilters button {
+    background: #00afef;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .resetFilters button:hover {
+    background: #2575FC;
+  }

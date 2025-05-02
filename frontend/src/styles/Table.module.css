@@ -1,0 +1,161 @@
+
+.container {
+  background-color: #FFFFFF;
+  color: #055597;
+  font-family: Arial, sans-serif;
+  
+}
+  
+
+ .long{
+  display: table-row;
+ }
+  
+ .short{
+  display: none;
+ }
+
+
+.header {
+  display: flex;
+  background-color: #fff;
+  
+  background-size: contain;
+  padding: 10px;
+}
+
+.header img{
+  width: auto;
+  height: 50px;
+}
+
+.headerImage {
+  height: 50px;
+  vertical-align: middle;
+}
+
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.tableHeader, .tableCell {
+
+  text-align: center;
+  border-top: 1px solid #00afefae;
+  min-width: 30px;
+  padding: 5px 0;
+}
+
+.tableHeader {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.tableHead {
+  background-color: #06bdff0b; 
+  color: #00afefae;
+  height: 50px;
+}
+
+
+.teamLogo {
+  margin-right: 20px;
+  height: 30px;
+  width: 30px;
+
+}
+
+.club {
+  display: flex;
+  align-items:center;
+  justify-content: left;
+
+}
+
+.clubName {
+  font-weight: bolder;
+
+}
+
+.fullName {
+  display: inline;
+}
+
+
+
+.info{
+  font-weight: 100;
+  font-size: 12px;
+
+}
+
+.form_container{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form{
+  
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  font-weight: bolder;
+  color: #fff;
+  text-align: center;
+  padding: 2px;
+}
+
+.W{
+  background-color:#04ff68;
+}
+
+.L{
+  background-color: #ff0404;
+}
+
+.D{
+  background-color: grey;
+}
+
+@container(max-width: 500px){
+  .header{
+    background-image: url(../assets/background.png);
+  }
+
+  .col{
+    display: none;
+  }
+
+  .short{
+    display: table-row;
+   }
+    
+   .long{
+    display: none;
+   }
+
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .fullName {
+    display: none;
+  }
+  
+  .club{
+    justify-content: center;
+  }
+
+  .teamLogo {
+    margin-right: 0px;
+  
+  }
+}
+
+

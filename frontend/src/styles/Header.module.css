@@ -1,0 +1,89 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+ 
+    background-image: url(../assets/background.png);
+    background-size:contain;
+    
+
+    position: relative;
+    
+  }
+  
+  .logo {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #fff;
+    border-radius:0 50%;
+  }
+  
+  .logo img, .federation_logo img{
+    height: 130px;
+   
+  }
+
+  .federation_logo{
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #fff;
+    border-radius:50% 0;
+
+  }
+
+
+  
+  
+  
+  nav {
+    flex-grow: 1;
+  }
+  
+  .navList {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight:500;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    transition: color 0.3s;
+  }
+  
+  .navItem:hover {
+    color: #ddd;
+  }
+  
+
+  .team_list ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #00afef;
+    
+
+
+  }
+
+  .team_list ul li img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  

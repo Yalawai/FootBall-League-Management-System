@@ -1,0 +1,47 @@
+.carouselContainer {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px #00afef28;
+    
+  }
+  
+  
+  
+  .carouselItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoRow {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .logoImage {
+    max-height: 100px;
+    max-width: 200px;
+    object-fit: contain;
+    margin: 0 10px;
+  }
+  
+  .carousel-indicators {
+    bottom: -20px;
+  }
+  
+  .carousel-indicators li {
+    background-color: #00f;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  
+  .carousel-indicators .active {
+    background-color: #ccc;
+  }
+  

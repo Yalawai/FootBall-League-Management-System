@@ -1,0 +1,32 @@
+.newsSection {
+    margin: 20px 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .moreLink {
+    font-size: 14px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .newsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  
+  
+ 
+  

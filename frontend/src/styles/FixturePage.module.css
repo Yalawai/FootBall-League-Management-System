@@ -1,0 +1,19 @@
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .filterItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filterItem label {
+    margin-bottom: 5px;
+  }
+  
+  .filterItem select {
+    padding: 5px;
+  }
+  

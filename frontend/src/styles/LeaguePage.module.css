@@ -1,0 +1,66 @@
+.leagueTablePage {
+    padding: 20px;
+  }
+
+
+  .header{
+    background-image: url(../assets/background.png);
+    background-size: contain;
+    padding: 40px 20px;
+  
+  }
+
+  .header h2{
+    color: #fff;
+    font-weight: bold;
+    font-size: 56px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+ 
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .filterItem {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filterItem label {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .filterItem select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .resetFilters {
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .resetFilters button {
+    background: #00afef;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .resetFilters button:hover {
+    background: #2575FC;
+  }
+  
+  .table_container{
+    margin: 0 50px;
+  }

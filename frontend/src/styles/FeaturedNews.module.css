@@ -1,0 +1,16 @@
+.carouselItem {
+  height: 400px; /* Adjust the height as needed */
+}
+
+.carouselImage,
+.carouselIframe {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carouselCaption {
+
+  color: white;
+  padding: 10px;
+}

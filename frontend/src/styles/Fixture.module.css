@@ -1,0 +1,90 @@
+/* Fixture.module.css */
+.header{
+  background-image: url(../assets/background.png);
+  background-size: contain;
+  padding: 5px;
+  
+}
+
+.header h1{
+  color: #fff;
+  text-align:center;
+  text-transform: uppercase;
+  font-weight: bold;
+ 
+}
+
+
+.fixtureDate{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color:#00afef14;
+  color: #00afef;
+  font-size: 10px;
+  padding: 10px 15px;
+  
+}
+
+.fixtureDate img{
+  width: 40px;
+}
+
+.fixtureItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.team_left{
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  min-width: 200px;
+
+}
+
+.team_right{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  min-width: 200px;
+
+}
+
+.teamLogo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.team_name{
+  color: #00afef;
+  font-size: 18px;
+  
+}
+
+.matchInfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 2px #00afeffb ;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  margin: 0px 10px;
+}
+
+@container(max-width: 500px){
+  .team_name{
+    display: none;
+  }
+
+  .league_logo{
+    display: none;
+  }
+
+
+}
