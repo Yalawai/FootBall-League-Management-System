@@ -3,7 +3,7 @@
 
 A full-stack web application designed to manage football league operations, built with **Django** for the backend and **React** for the frontend. This system helps organize and administer football leagues, providing tools for managing teams, players, and matches. 
 
-#HOWEVERS
+# HOWEVERS
 The app primeerly uses the inbuilt django admin panel for the CRUD operations...
 The REPO has many dulipcate and placeholders pictures and images that i have took from the internet, i dont own so....
   ## 🖼️ Image Usage and Credits
@@ -11,7 +11,7 @@ The REPO has many dulipcate and placeholders pictures and images that i have too
   If you are the owner of any image and believe it has been used without appropriate credit or permission, please contact us via the repository's issue tracker or email provided in the project to request removal or attribution.
   We encourage contributors to use open-license or self-created media in future updates to ensure compliance with copyright policies.
   
-#This is a unfinished project.............
+# This is a unfinished project.............
 
 
 ## 🔧 Features
@@ -36,7 +36,7 @@ The REPO has many dulipcate and placeholders pictures and images that i have too
 ```bash
 git clone https://github.com/Yalawai/FootBall-League-Management-System.git
 cd FootBall-League-Management-System
-```bash
+```
 
 ### 2. Running a Backend Django Server
 ```bash
@@ -46,13 +46,13 @@ source env/bin/activate  # For Windows: env\Scripts\activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
-```bash
+```
 
 ### 3. Frontend React Server
 ```bash
 cd frontend
 npm install
 npm run dev
-```bash
+```
 
 
